@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body, html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+}
+.container{
+    display: inline-block;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 50px 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 4px 15px 25px 10px rgba(0, 0, 0, 0.2) , 3px 10px 20px 9px rgb(53, 48, 48);
+    text-align: center;
+    /* opacity: 0.8; */
+    /* justify-content: center;
+    align-items:center; */
+
+    
+}
+.timer{
+    position: relative;
+    width: 400x;
+    height: 100px;
+    line-height: 14px;
+    font-size: 30px;
+    border: 7px solid red;
+    /*background: linear-gradient(135 deg, pink, orange);
+    /*z-index:1000;*/
+    border-radius: 20px;
+    margin: 30px auto;
+    
+
+}
+.cash{
+   font-family: monospace;
+   font-weight: 600;
+   font-size: 40px;
+   position: relative;
+   top: 40%;
+   width: 330px;
+   text-align: center;
+   margin-left: 30px;
+   word-spacing: 2px;
+   height: 50px;
+   
+   
+}
+p{
+    font-weight: bold;
+    color: rgb(1, 1, 75);
+    padding: 20px auto;
+    text-transform: capitalize;
+    font-family: monospace;
+    font-size: 15px;
+    
+}
+.concept button {
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    width: 100px;
+    color: rgb(0, 0, 37);
+    
+
+}
+#startPause, #stopped, #undo{
+    width: 90px;
+    height: 55px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    font-weight: 600;
+    background: linear-gradient(45deg, yellow, red); 
+    color: rgb(0, 0, 8);
+    margin: 19px 25px;
+    display: inline-block;
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+}
+#startPause:active, #stopped:active, #undo:active{
+    transform: scale(0.80);
+    color: blue;
+}
+
+.fa-play{
+    
+    color: #8338ec;
+    margin-right: 8px;
+    
+}
+.fa-stop{
+    margin-right: 8px;
+    color: #11b5e4;
+}
+.fa-undo{
+    color: rgb(255, 0, 0);
+    margin-right: 8px;
+}
+button i{
+    display: inline-block;
+   
+    
+}
+#stop .fa{
+    margin-left: 3px;
+}
+
+button {
+    outline-style: none;
+    border-style: none;
+}
